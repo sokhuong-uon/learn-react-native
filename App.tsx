@@ -1,8 +1,8 @@
 import React from "react";
-import { ClickAnimation } from "./components/ClickAnimation";
+import { CarouselAnimation } from "./components/carousel/Carousel";
 
 const App: React.FC = () => {
-	return <ClickAnimation></ClickAnimation>;
+	return <CarouselAnimation></CarouselAnimation>;
 };
 
 export default App;
