@@ -1,8 +1,8 @@
 import React from "react";
-import KeyboardExample from "./components/Keyboard";
+import ToastExample from "./components/android/ToastExample";
 
 const App: React.FC = () => {
-	return <KeyboardExample />;
+	return <ToastExample />;
 };
 
 export default App;
