@@ -1,8 +1,8 @@
 import React from "react";
-import { CarouselAnimation } from "./components/carousel/Carousel";
+import KeyboardExample from "./components/Keyboard";
 
 const App: React.FC = () => {
-	return <CarouselAnimation></CarouselAnimation>;
+	return <KeyboardExample />;
 };
 
 export default App;
